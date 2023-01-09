@@ -1,0 +1,24 @@
+using System;
+
+namespace Act_3
+{
+  class Program
+  {
+    public static void Main(string[] args)
+    {
+      string[] emails = {"rachelle@gmail.com","mercador@gmail.com","rachellemercado@gmail.com"};
+      string[] usernames = {"Rachelle P.","Mercado R.","Rachelle Mercado"};
+      string[] passwords = {"Mercado29","Rachelle29","chelle@02212626"};
+      
+      Console.Write("Index: ");
+      int index=int.Parse(Console.ReadLine());
+      
+      Console.WriteLine("\nEmail: {0}", emails[index]);
+      Console.WriteLine("Username: "+ usernames[index]);
+      Console.WriteLine("Password: "+ passwords[index]);
+      
+      Console.ReadKey();
+      Console.WriteLine("\nPress any key to Continue. . .");
+    }
+  }
+}
